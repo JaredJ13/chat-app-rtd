@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(239, 243, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner-container{
+    padding: 1rem;
+    background-color: rgb(239, 243, 240);
+}
+
+.title{
+    text-align: center;
+    color: rgb(112, 106, 106);
+}
+
+.main-content{
+    width: 40rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+    background-color: rgb(230, 228, 228);
+}
+
+.message-box{
+    width: 38rem;
+    height: 20rem;
+    margin: 1rem auto;
+    background-color: rgb(239, 243, 240);
+    box-shadow: -5px 5px 5px rgb(211, 204, 204);
+    overflow-y: auto;
+}
+
+.send-box{
+    display: flex;
+    justify-content: end;
+    margin-right: 1.1rem;
+}
+
+.send-box-edit{
+    display: flex;
+    justify-content: center;
+    margin-right: 1.1rem;
+    transition-timing-function: ease-in-out;
+}
+
+.send-box div:last-of-type{
+    margin-left: 1rem;
+}
+
+
+/* Chats & Connections in Message Box */
+.incoming-msg{
+    max-width: 36rem;
+    padding: 0.25rem;
+    border-left: 1px solid rgb(56, 55, 55);
+}
+
+.outgoing-msg{
+    max-width: 36rem;
+    padding: 0.25rem;
+}
+
+.user-connection{
+    color: rgb(133, 196, 196);
+    padding: 0.25rem;
+    background-color: rgba(214, 204, 204, 0.342);;
+}
+
+.user-disconnection{
+    color: rgb(184, 109, 138);
+    padding: 0.25rem;
+    background-color: rgba(214, 204, 204, 0.342);;
+}
+
+table{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
